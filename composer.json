@@ -3,10 +3,11 @@
     "description":"Uma biblioteca simples para upload de imagens",
     "type": "library",
     "license": "GPL-3.0-or-later",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Agostinho Uanicela",
-            "email": "agostinho.uanicela@gmail.com"
+            "email": "agostinho.uanicela@voneka.co.mz"
         }
     ],
     "autoload": {
