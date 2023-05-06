@@ -1,7 +1,9 @@
 # IMAGE UPLOADER:
-Uma simples biblioteca para fazer upload de uma imagens.
+Esta é uma biblioteca bastante simples para fazer upload de imagens.
+Com uma única linha é possivel fazer upload de imagens bastando fornecer os parametros necessários.
 ## Instalação:
-Para instalara esta biblioteca basta digitar o comando
+Para instalara esta biblioteca basta digitar o comando na raiz do projecto:
+
 composer require voneka/image-uploader
 
 ## Implementação:
@@ -9,7 +11,7 @@ composer require voneka/image-uploader
 
 require '../vendor/autoload.php';
 use Voneka\ImageUploader;
-
+  #Antes de mais fazemos a verificação da existencia da imagem válida ou não.
  if ($request->hasFile('nome do campo') && $request->file('nome do campo')->isValid()) {
     $imagem = $request->file('nome do campo');
     //Se quiser mais extensoes é só adicionar  no array ['jpeg', 'png','svg'].
